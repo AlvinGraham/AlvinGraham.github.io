@@ -7,23 +7,33 @@ body {
 }
 
 .personalInfo {
-  border-bottom: 1px solid black;
-  padding-bottom: 20px;
+  text-align: center;
+  //border-bottom: 1px solid black;
+  //padding-bottom: 20px;
   
 }
 
-.grey {
+.address {
   color: grey;
   margin: 0px;
   //border: 1px solid
 }
 
-.green {
+.email {
  color: green;
+  border-bottom: 1px solid black;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.name {
+  //border: 1px solid;
   margin: 0;
 }
 
-.nospace {
-  //border: 1px solid;
-  margin: 0;
+.objective {
+  color: grey;
+  text-align: left;
+  margin-top: 0px;
+  //border: 1px solid  
 }
