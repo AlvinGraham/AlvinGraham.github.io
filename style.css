@@ -1,25 +1,18 @@
 body {
   background-color: black;
   color: darkturquoise;
-  // text-align: center;
   font-family: Calibri, Arial, sans-serif;
-  margin: 5% 10%; 
+  margin: 5% 10% auto; 
   max-width: 800px;
-  
-
 }
 
 .personalInfo {
   text-align: center;
-  //border-bottom: 1px solid white;
-  //padding-bottom: 20px;
-  
 }
 
 .address {
   color: teal;
   margin: 0px;
-  //border: 1px solid white;
 }
 
 .email {
@@ -30,7 +23,6 @@ body {
 }
 
 .name {
-  //border: 1px solid white;
   margin: 0;
 }
 
@@ -38,27 +30,31 @@ body {
   color: teal;
   text-align: left;
   margin-top: 0px;
-  //border: 1px solid white;  
 }
 
 .experience {
   text-align: left;
-  border: 1px solid white;
+  // border: 1px solid white;
+}
+
+.education {
+  text-align: left;
+  // border: 1px solid white;
 }
 
 .expElement {
-  border: 1px solid white;
+}
+
+.eduElement {
 }
 
 .dates{
   color: teal;
   margin: 0px;
-  border: 1px solid white;
 }
 
 .position{
   margin: 0px;
-  border: 1px solid white;
 }
 
 .title {
@@ -66,5 +62,13 @@ body {
 }
 
 .firm {
+  color: teal;
+}
+
+.accomplishments {
+  margin-top: 0;
+}
+
+li {
   color: teal;
 }
