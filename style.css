@@ -1,39 +1,70 @@
 body {
-  background-color: khaki;
-  text-align: center;
+  background-color: black;
+  color: darkturquoise;
+  // text-align: center;
   font-family: Calibri, Arial, sans-serif;
-  margin: 5% 10%;  
+  margin: 5% 10%; 
+  max-width: 800px;
+  
 
 }
 
 .personalInfo {
   text-align: center;
-  //border-bottom: 1px solid black;
+  //border-bottom: 1px solid white;
   //padding-bottom: 20px;
   
 }
 
 .address {
-  color: grey;
+  color: teal;
   margin: 0px;
-  //border: 1px solid
+  //border: 1px solid white;
 }
 
 .email {
  color: green;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
   margin: 0;
   padding-bottom: 20px;
 }
 
 .name {
-  //border: 1px solid;
+  //border: 1px solid white;
   margin: 0;
 }
 
 .objective {
-  color: grey;
+  color: teal;
   text-align: left;
   margin-top: 0px;
-  //border: 1px solid  
+  //border: 1px solid white;  
+}
+
+.experience {
+  text-align: left;
+  border: 1px solid white;
+}
+
+.expElement {
+  border: 1px solid white;
+}
+
+.dates{
+  color: teal;
+  margin: 0px;
+  border: 1px solid white;
+}
+
+.position{
+  margin: 0px;
+  border: 1px solid white;
+}
+
+.title {
+  color: green;
+}
+
+.firm {
+  color: teal;
 }
