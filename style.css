@@ -1,0 +1,29 @@
+body {
+  background-color: khaki;
+  text-align: center;
+  font-family: Calibri, Arial, sans-serif;
+  margin: 5% 10%;  
+
+}
+
+.personalInfo {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  
+}
+
+.grey {
+  color: grey;
+  margin: 0px;
+  //border: 1px solid
+}
+
+.green {
+ color: green;
+  margin: 0;
+}
+
+.nospace {
+  //border: 1px solid;
+  margin: 0;
+}
