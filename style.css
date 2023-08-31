@@ -1,11 +1,18 @@
+/* https://scontent.ffcm1-1.fna.fbcdn.net/v/t1.18169-9/1923800_21069415697_2781_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=pGvwxJ8kQTwAX9dj0Yd&_nc_ht=scontent.ffcm1-1.fna&oh=00_AfCw0soYykeNOHy_SOeK6E7KHnjd--gGXvwxWBoOiK7QqQ&oe=6517FEBC */
+
 body {
-  background-color: black;
+  /* background-color: black; */
+  /* background-image: url("https://th.bing.com/th/id/R.b99bd86cd9945a9398a5b5e0c39bb801?rik=yglqhEeDTjxQrA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fJ3uThO5.jpg&ehk=4W6p0inXDOSy10BDLUgkB63YVPnIkBoineHpILKhaKY%3d&risl=&pid=ImgRaw&r=0"); */
+  background-image: url("StarsBG.jpg");
   color: darkturquoise;
   font-family: Calibri, Arial, sans-serif;
   margin: 5% 10% auto; 
   max-width: 800px;
 }
 
+.photo {
+  float: left
+}
 .personalInfo {
   text-align: center;
 }
@@ -34,18 +41,26 @@ body {
 
 .experience {
   text-align: left;
-  // border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 .education {
   text-align: left;
-  // border: 1px solid white;
+  /* border: 1px solid white; */
+}
+
+.skills {
+  text-align: left;
+  /* border: 1px solid white; */
 }
 
 .expElement {
 }
 
 .eduElement {
+}
+
+.skillsElement {
 }
 
 .dates{
@@ -66,6 +81,10 @@ body {
 }
 
 .accomplishments {
+  margin-top: 0;
+}
+
+ul{
   margin-top: 0;
 }
 
